@@ -31,5 +31,22 @@ h1 {
 
 #recipe-card {
     background-image: url('./assets/main/list-bg.png');
-    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 70px 50px 50px;
+    margin-bottom: 50px;
+}
+
+.ingredient-list {
+    display: inline-block;
+}
+
+
+.checklist {
+    display: block;
+    padding: 6px;
+}
+
+.line-through{
+    text-decoration: line-through;
 }
