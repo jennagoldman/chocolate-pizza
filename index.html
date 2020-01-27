@@ -11,22 +11,29 @@
 
 <body>
     <header>
-        <div>
-            <img src="./assets/header/logo.png">
-            <h2>Delicious</h2>
-            <p id="subtitle">The best food blog on the web.</p>
+        <div id = "header-div"> 
+            <div id = "logo-group">
+             <div id = "logo-image">
+                <img src="./assets/header/logo.png">
+             </div>
+             <div id = "logo-name">
+              <h2>Delicious</h2>
+              <span id="subtitle">The best food blog on the web.</span>
+            </div>
+
+            </div>
+            <div id = "social-icons">
+                <img src="./assets/header/social-icons/fb-icon.png">
+                <img src="./assets/header/social-icons/twit-icon.png">
+                <img src="./assets/header/social-icons/gp-icon.png">
+                <img src="./assets/header/social-icons/insta-icon.png">
+                <img src="./assets/header/social-icons/flic-icon.png">
+                <img id = "pinterest-icon" src="./assets/header/social-icons/pint-icon.png">
+                <img src="./assets/header/social-icons/rss-icon.png">
+                <img src="./assets/header/social-icons/mail-icon.png">
+            </div>
         </div>
-        <div>
-            <img src="./assets/header/social-icons/fb-icon.png">
-            <img src="./assets/header/social-icons/twit-icon.png">
-            <img src="./assets/header/social-icons/gp-icon.png">
-            <img src="./assets/header/social-icons/insta-icon.png">
-            <img src="./assets/header/social-icons/flic-icon.png">
-            <img src="./assets/header/social-icons/pint-icon.png">
-            <img src="./assets/header/social-icons/rss-icon.png">
-            <img src="./assets/header/social-icons/mail-icon.png">
-        </div>
-        <div class="horizontal-rule">
+        <div class="horizontal-rule"></div>
     </header>
 
     <main>
@@ -68,17 +75,32 @@
                 <label class = "checklist"><input type="checkbox">1 cup honey roasted pecans, roughly chopped</input></label> 
             </div>
         </section>
+
+        <div class="horizontal-rule"></div>
+
+        <section id = "author-section">
+            <div id= "author-div">
+                <div id = "author-img"><img src="./assets/footer/van-pic.png"></div>
+                <div id = "author-bio"><h3>Vanessa Stevenson</h3>
+                    <span>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</span>
+                </div>
+            </div>
+            <button>Share Recipe</button>
+         </section>
+
     </main>
 
     <footer>
-        <div class="horizontal-rule"></div>
-        <img src="./assets/footer/van-pic.png">
-        <h3>Vanessa Stevenson</h3>
-        <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
-        <button>Share Recipe</button>
-        <hr>
-        <img src="./assets/footer/small-logo.png">
-        <hr>
+        <div id = "footer-logo">
+            <div id = "hr-left">
+                <hr class = "inline">
+            </div>
+            <img id = "footer-img" class = "inline" src="./assets/footer/small-logo.png">
+            <div id = "hr-right" >
+                <hr class = "inline">
+            </div>
+        </div>
+
         <p>Delicious &copy; 2013 . All Rights Reserved.<br>
         Proudly published with Ghost.</p>
     </footer>
