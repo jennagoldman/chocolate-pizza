@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+header, main, footer {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.horizontal-rule {
+    background-image: url('./assets/hr-img.png');
+    background-repeat: on;
+    width: 800px;
+    height: 10px;
+}
+
+#recipe-heading {
+    margin-top: 30px;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+#subheading {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#recipe-card {
+    background-image: url('./assets/main/list-bg.png');
+    height: 300px;
+}
