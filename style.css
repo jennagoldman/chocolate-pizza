@@ -7,6 +7,42 @@ header, main, footer {
     margin: 0 auto;
 }
 
+#header-div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#logo-image, #logo-name {
+    display: inline-block;
+}
+
+
+#social-icons {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#social-icons img {
+    margin-right: 1px;
+}
+
+#pinterest-icon {
+    margin-right: 7px!important;
+}
+
+h2 {
+    margin-bottom: 0;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+#subtitle {
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
 .horizontal-rule {
     background-image: url('./assets/hr-img.png');
     background-repeat: on;
@@ -15,7 +51,7 @@ header, main, footer {
 }
 
 #recipe-heading {
-    margin-top: 30px;
+    margin-top: 45px;
 }
 
 h1 {
@@ -31,5 +67,76 @@ h1 {
 
 #recipe-card {
     background-image: url('./assets/main/list-bg.png');
-    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 70px 50px 50px;
+    margin-bottom: 50px;
+}
+
+.ingredient-list {
+    display: inline-block;
+}
+
+
+.checklist {
+    display: block;
+    padding: 6px;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+#author-bio {
+    width: 500px;
+}
+
+#author-img, #author-bio {
+    display: inline-block;
+}
+
+#author-div {
+    width: 600px;
+    display: inline-block;
+}
+
+button {
+    background-color: #BC7058;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    font-size: 16px;
+    position: relative;
+    left: 28px;
+    bottom: 33px;
+
+}
+
+footer {
+    text-align: center;
+    color: #B0B6B6;
+}
+
+.inline {
+    display: inline block;
+}
+
+#footer-logo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+#hr-left, #hr-right {
+    width: 375px;
+}
+
+hr {
+    border-top: 1px solid #EFEFEF;
+}
+
+#footer-img {
+    position: relative;
+    bottom: 8px;
+   
 }
